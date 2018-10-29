@@ -12,7 +12,7 @@ class CommentsSeeder extends Seeder {
     public function run() {
         DB::table('comments')->insert([
             'name' => 'Marilyn Couser',
-            'comment' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu lorem nulla. Phasellus suscipit id libero ac tincidunt. Donec lobortis ut nulla at accumsan. Maecenas convallis nunc id accumsan vulputate. In quis nunc auctor, posuere sem nec, hendrerit nisi. In hendrerit mattis arcu, in euismod ante consequat ut. Pellentesque molestie id velit ac faucibus. Nam dapibus pharetra nisi nec fringilla.',
+            'comment' => 'Good,
             'film_id' => 1,
             'status' => 'visible',
             'created_at' => (new \DateTime())->setTimestamp(time() - rand(1, 2 * 30 * 24 * 3600))
@@ -20,7 +20,7 @@ class CommentsSeeder extends Seeder {
 
         DB::table('comments')->insert([
             'name' => 'Moonman',
-            'comment' => 'Aliquam ornare condimentum odio, eget iaculis dolor rutrum a. Nam efficitur ultrices nunc eu lobortis. Donec ultrices consectetur porta. Mauris nec nisl id purus maximus aliquet. Cras lectus nisi, tempor sed libero vel, vehicula pulvinar lacus. In rutrum diam a risus fringilla dictum. Donec hendrerit non tortor a rutrum.',
+            'comment' => 'Cool,',
             'film_id' => 1,
             'status' => 'visible',
             'created_at' => (new \DateTime())->setTimestamp(time() - rand(1, 2 * 30 * 24 * 3600))
